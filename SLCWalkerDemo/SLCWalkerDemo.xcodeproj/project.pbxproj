@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A5E986226050FE00DAD938 /* SLCWalkerNormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5E985226050FE00DAD938 /* SLCWalkerNormalViewController.swift */; };
+		91A5E9882260586800DAD938 /* SLCWalkerPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5E9872260586800DAD938 /* SLCWalkerPathViewController.swift */; };
+		91A5E98B22605D0D00DAD938 /* SLCWalkerTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5E98922605D0D00DAD938 /* SLCWalkerTransitionViewController.swift */; };
+		91A5E98C22605D0D00DAD938 /* SLCWalkerTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A5E98A22605D0D00DAD938 /* SLCWalkerTransitionViewController.xib */; };
+		91A5E98E22605FC300DAD938 /* SLCWalkerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5E98D22605FC300DAD938 /* SLCWalkerCollectionViewController.swift */; };
+		91A5E9922260626D00DAD938 /* SLCWalkerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5E9912260626D00DAD938 /* SLCWalkerTableViewController.swift */; };
+		91FCEE97225F58F10005BD45 /* SLCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEE96225F58F10005BD45 /* SLCAppDelegate.swift */; };
+		91FCEE99225F58F10005BD45 /* SLCMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEE98225F58F10005BD45 /* SLCMainViewController.swift */; };
+		91FCEE9E225F58F20005BD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEE9D225F58F20005BD45 /* Assets.xcassets */; };
+		91FCEEA1225F58F20005BD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEE9F225F58F20005BD45 /* LaunchScreen.storyboard */; };
+		91FCEEA9225F5E3E0005BD45 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEA8225F5E3E0005BD45 /* bg.jpg */; };
+		91FCEEB0225F5E480005BD45 /* main_bg_make.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEAA225F5E470005BD45 /* main_bg_make.jpg */; };
+		91FCEEB1225F5E480005BD45 /* main_bg_add.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEAB225F5E470005BD45 /* main_bg_add.jpg */; };
+		91FCEEB2225F5E480005BD45 /* main_bg_move.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEAC225F5E480005BD45 /* main_bg_move.jpg */; };
+		91FCEEB3225F5E480005BD45 /* main_bg_path.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEAD225F5E480005BD45 /* main_bg_path.jpg */; };
+		91FCEEB4225F5E480005BD45 /* main_bg_take.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEAE225F5E480005BD45 /* main_bg_take.jpg */; };
+		91FCEEB5225F5E480005BD45 /* main_bg_tra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEAF225F5E480005BD45 /* main_bg_tra.jpg */; };
+		91FCEEBB225F5F1F0005BD45 /* SLCLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEB9225F5F1F0005BD45 /* SLCLaunchViewController.swift */; };
+		91FCEEBC225F5F1F0005BD45 /* SLCLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91FCEEBA225F5F1F0005BD45 /* SLCLaunchViewController.xib */; };
+		91FCEEC1225F617E0005BD45 /* SLCMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEC0225F617E0005BD45 /* SLCMainModel.swift */; };
+		91FCEEC3225F645E0005BD45 /* SLCMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEC2225F645E0005BD45 /* SLCMainCollectionViewCell.swift */; };
+		91FCEEC7225F69DE0005BD45 /* SLCWalkerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEC6225F69DE0005BD45 /* SLCWalkerItemCell.swift */; };
+		CDF60B443F253081E6AFBE52 /* libPods-default-SLCWalkerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAE0BF5C664106659D51B5 /* libPods-default-SLCWalkerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27481F26AD0F405A5D8B8CE3 /* Pods-default-SLCWalkerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-SLCWalkerDemo.debug.xcconfig"; path = "Target Support Files/Pods-default-SLCWalkerDemo/Pods-default-SLCWalkerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		91A5E985226050FE00DAD938 /* SLCWalkerNormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCWalkerNormalViewController.swift; sourceTree = "<group>"; };
+		91A5E9872260586800DAD938 /* SLCWalkerPathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCWalkerPathViewController.swift; sourceTree = "<group>"; };
+		91A5E98922605D0D00DAD938 /* SLCWalkerTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCWalkerTransitionViewController.swift; sourceTree = "<group>"; };
+		91A5E98A22605D0D00DAD938 /* SLCWalkerTransitionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLCWalkerTransitionViewController.xib; sourceTree = "<group>"; };
+		91A5E98D22605FC300DAD938 /* SLCWalkerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCWalkerCollectionViewController.swift; sourceTree = "<group>"; };
+		91A5E9912260626D00DAD938 /* SLCWalkerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCWalkerTableViewController.swift; sourceTree = "<group>"; };
+		91FCEE93225F58F10005BD45 /* SLCWalkerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCWalkerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FCEE96225F58F10005BD45 /* SLCAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCAppDelegate.swift; sourceTree = "<group>"; };
+		91FCEE98225F58F10005BD45 /* SLCMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCMainViewController.swift; sourceTree = "<group>"; };
+		91FCEE9D225F58F20005BD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FCEEA0225F58F20005BD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91FCEEA2225F58F20005BD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FCEEA8225F5E3E0005BD45 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		91FCEEAA225F5E470005BD45 /* main_bg_make.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg_make.jpg; sourceTree = "<group>"; };
+		91FCEEAB225F5E470005BD45 /* main_bg_add.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg_add.jpg; sourceTree = "<group>"; };
+		91FCEEAC225F5E480005BD45 /* main_bg_move.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg_move.jpg; sourceTree = "<group>"; };
+		91FCEEAD225F5E480005BD45 /* main_bg_path.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg_path.jpg; sourceTree = "<group>"; };
+		91FCEEAE225F5E480005BD45 /* main_bg_take.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg_take.jpg; sourceTree = "<group>"; };
+		91FCEEAF225F5E480005BD45 /* main_bg_tra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg_tra.jpg; sourceTree = "<group>"; };
+		91FCEEB9225F5F1F0005BD45 /* SLCLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCLaunchViewController.swift; sourceTree = "<group>"; };
+		91FCEEBA225F5F1F0005BD45 /* SLCLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLCLaunchViewController.xib; sourceTree = "<group>"; };
+		91FCEEC0225F617E0005BD45 /* SLCMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCMainModel.swift; sourceTree = "<group>"; };
+		91FCEEC2225F645E0005BD45 /* SLCMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		91FCEEC6225F69DE0005BD45 /* SLCWalkerItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCWalkerItemCell.swift; sourceTree = "<group>"; };
+		AB8D220D58C3646438116E38 /* Pods-default-SLCWalkerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-SLCWalkerDemo.release.xcconfig"; path = "Target Support Files/Pods-default-SLCWalkerDemo/Pods-default-SLCWalkerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CAFAE0BF5C664106659D51B5 /* libPods-default-SLCWalkerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-default-SLCWalkerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FCEE90225F58F10005BD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF60B443F253081E6AFBE52 /* libPods-default-SLCWalkerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C5EA961DC1D2CD872C81786 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27481F26AD0F405A5D8B8CE3 /* Pods-default-SLCWalkerDemo.debug.xcconfig */,
+				AB8D220D58C3646438116E38 /* Pods-default-SLCWalkerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91FCEE8A225F58F10005BD45 = {
+			isa = PBXGroup;
+			children = (
+				91FCEE95225F58F10005BD45 /* SLCWalkerDemo */,
+				91FCEE94225F58F10005BD45 /* Products */,
+				8C5EA961DC1D2CD872C81786 /* Pods */,
+				EAA4C75CBE118A75450D37D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91FCEE94225F58F10005BD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEE93225F58F10005BD45 /* SLCWalkerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FCEE95225F58F10005BD45 /* SLCWalkerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEB7225F5EA90005BD45 /* Controller */,
+				91FCEEB6225F5E500005BD45 /* Supports */,
+			);
+			path = SLCWalkerDemo;
+			sourceTree = "<group>";
+		};
+		91FCEEB6225F5E500005BD45 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEE96225F58F10005BD45 /* SLCAppDelegate.swift */,
+				91FCEEA8225F5E3E0005BD45 /* bg.jpg */,
+				91FCEEAB225F5E470005BD45 /* main_bg_add.jpg */,
+				91FCEEAA225F5E470005BD45 /* main_bg_make.jpg */,
+				91FCEEAC225F5E480005BD45 /* main_bg_move.jpg */,
+				91FCEEAD225F5E480005BD45 /* main_bg_path.jpg */,
+				91FCEEAE225F5E480005BD45 /* main_bg_take.jpg */,
+				91FCEEAF225F5E480005BD45 /* main_bg_tra.jpg */,
+				91FCEE9D225F58F20005BD45 /* Assets.xcassets */,
+				91FCEE9F225F58F20005BD45 /* LaunchScreen.storyboard */,
+				91FCEEA2225F58F20005BD45 /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		91FCEEB7225F5EA90005BD45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEB8225F5EFE0005BD45 /* Launch */,
+				91FCEEBD225F60ED0005BD45 /* Main */,
+				91FCEEC4225F69700005BD45 /* Walker */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91FCEEB8225F5EFE0005BD45 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEB9225F5F1F0005BD45 /* SLCLaunchViewController.swift */,
+				91FCEEBA225F5F1F0005BD45 /* SLCLaunchViewController.xib */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		91FCEEBD225F60ED0005BD45 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEBF225F616B0005BD45 /* Model */,
+				91FCEEBE225F61650005BD45 /* View */,
+				91FCEE98225F58F10005BD45 /* SLCMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		91FCEEBE225F61650005BD45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEC2225F645E0005BD45 /* SLCMainCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91FCEEBF225F616B0005BD45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEC0225F617E0005BD45 /* SLCMainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91FCEEC4225F69700005BD45 /* Walker */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEC5225F69C70005BD45 /* View */,
+				91A5E985226050FE00DAD938 /* SLCWalkerNormalViewController.swift */,
+				91A5E9872260586800DAD938 /* SLCWalkerPathViewController.swift */,
+				91A5E98922605D0D00DAD938 /* SLCWalkerTransitionViewController.swift */,
+				91A5E98A22605D0D00DAD938 /* SLCWalkerTransitionViewController.xib */,
+				91A5E98D22605FC300DAD938 /* SLCWalkerCollectionViewController.swift */,
+				91A5E9912260626D00DAD938 /* SLCWalkerTableViewController.swift */,
+			);
+			path = Walker;
+			sourceTree = "<group>";
+		};
+		91FCEEC5225F69C70005BD45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91FCEEC6225F69DE0005BD45 /* SLCWalkerItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAA4C75CBE118A75450D37D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFAE0BF5C664106659D51B5 /* libPods-default-SLCWalkerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FCEE92225F58F10005BD45 /* SLCWalkerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FCEEA5225F58F20005BD45 /* Build configuration list for PBXNativeTarget "SLCWalkerDemo" */;
+			buildPhases = (
+				86B934EFEBC2B3646AC78186 /* [CP] Check Pods Manifest.lock */,
+				91FCEE8F225F58F10005BD45 /* Sources */,
+				91FCEE90225F58F10005BD45 /* Frameworks */,
+				91FCEE91225F58F10005BD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLCWalkerDemo;
+			productName = SLCWalkerDemo;
+			productReference = 91FCEE93225F58F10005BD45 /* SLCWalkerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FCEE8B225F58F10005BD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SecretLisa;
+				TargetAttributes = {
+					91FCEE92225F58F10005BD45 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 91FCEE8E225F58F10005BD45 /* Build configuration list for PBXProject "SLCWalkerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FCEE8A225F58F10005BD45;
+			productRefGroup = 91FCEE94225F58F10005BD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FCEE92225F58F10005BD45 /* SLCWalkerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FCEE91225F58F10005BD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FCEEB3225F5E480005BD45 /* main_bg_path.jpg in Resources */,
+				91FCEEB4225F5E480005BD45 /* main_bg_take.jpg in Resources */,
+				91FCEEA1225F58F20005BD45 /* LaunchScreen.storyboard in Resources */,
+				91FCEE9E225F58F20005BD45 /* Assets.xcassets in Resources */,
+				91FCEEA9225F5E3E0005BD45 /* bg.jpg in Resources */,
+				91FCEEB0225F5E480005BD45 /* main_bg_make.jpg in Resources */,
+				91FCEEBC225F5F1F0005BD45 /* SLCLaunchViewController.xib in Resources */,
+				91A5E98C22605D0D00DAD938 /* SLCWalkerTransitionViewController.xib in Resources */,
+				91FCEEB5225F5E480005BD45 /* main_bg_tra.jpg in Resources */,
+				91FCEEB2225F5E480005BD45 /* main_bg_move.jpg in Resources */,
+				91FCEEB1225F5E480005BD45 /* main_bg_add.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86B934EFEBC2B3646AC78186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-default-SLCWalkerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FCEE8F225F58F10005BD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A5E9882260586800DAD938 /* SLCWalkerPathViewController.swift in Sources */,
+				91A5E98E22605FC300DAD938 /* SLCWalkerCollectionViewController.swift in Sources */,
+				91FCEEC3225F645E0005BD45 /* SLCMainCollectionViewCell.swift in Sources */,
+				91A5E9922260626D00DAD938 /* SLCWalkerTableViewController.swift in Sources */,
+				91FCEE99225F58F10005BD45 /* SLCMainViewController.swift in Sources */,
+				91FCEEC1225F617E0005BD45 /* SLCMainModel.swift in Sources */,
+				91A5E98B22605D0D00DAD938 /* SLCWalkerTransitionViewController.swift in Sources */,
+				91FCEEBB225F5F1F0005BD45 /* SLCLaunchViewController.swift in Sources */,
+				91FCEE97225F58F10005BD45 /* SLCAppDelegate.swift in Sources */,
+				91FCEEC7225F69DE0005BD45 /* SLCWalkerItemCell.swift in Sources */,
+				91A5E986226050FE00DAD938 /* SLCWalkerNormalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91FCEE9F225F58F20005BD45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FCEEA0225F58F20005BD45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FCEEA3225F58F20005BD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FCEEA4225F58F20005BD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FCEEA6225F58F20005BD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27481F26AD0F405A5D8B8CE3 /* Pods-default-SLCWalkerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23869FAP88;
+				INFOPLIST_FILE = "$(SRCROOT)/SLCWalkerDemo/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SecretLisa.SLCWalkerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FCEEA7225F58F20005BD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8D220D58C3646438116E38 /* Pods-default-SLCWalkerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23869FAP88;
+				INFOPLIST_FILE = "$(SRCROOT)/SLCWalkerDemo/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SecretLisa.SLCWalkerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FCEE8E225F58F10005BD45 /* Build configuration list for PBXProject "SLCWalkerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FCEEA3225F58F20005BD45 /* Debug */,
+				91FCEEA4225F58F20005BD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FCEEA5225F58F20005BD45 /* Build configuration list for PBXNativeTarget "SLCWalkerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FCEEA6225F58F20005BD45 /* Debug */,
+				91FCEEA7225F58F20005BD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FCEE8B225F58F10005BD45 /* Project object */;
+}

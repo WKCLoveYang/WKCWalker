@@ -1,0 +1,6 @@
+module SLCWalker {
+  umbrella header "SLCWalker-umbrella.h"
+
+  export *
+  module * { export * }
+}

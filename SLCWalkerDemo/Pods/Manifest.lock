@@ -1,0 +1,20 @@
+PODS:
+  - SLCWalker (1.1.1)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - SLCWalker
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SLCWalker
+    - SnapKit
+
+SPEC CHECKSUMS:
+  SLCWalker: f89fbb018182fa6b0f9c642031cb0a105a58f14c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 7331e70e615729ad3d0571d04fda8fe963717c04
+
+COCOAPODS: 1.7.0.beta.3

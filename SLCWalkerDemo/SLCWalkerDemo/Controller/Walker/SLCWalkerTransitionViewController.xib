@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLCWalkerTransitionViewController" customModule="SLCWalkerDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="testView" destination="c1x-bo-hxM" id="XFb-xg-q7S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypf-4V-TTj">
+                    <rect key="frame" x="141.5" y="68" width="131" height="33"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                    <state key="normal" title="FlipFromLeft">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="flipFromLeft:" destination="-1" eventType="touchUpInside" id="58n-J8-lak"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utK-TG-DbN">
+                    <rect key="frame" x="136.5" y="111" width="141" height="33"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                    <state key="normal" title="FlipFromRight">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="flipFromRight:" destination="-1" eventType="touchUpInside" id="JJo-ce-S8e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dy8-9M-m5r">
+                    <rect key="frame" x="174" y="154" width="66" height="33"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                    <state key="normal" title="CurlUp">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="curlUp:" destination="-1" eventType="touchUpInside" id="olT-CP-mXH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yza-zc-6Ti">
+                    <rect key="frame" x="163.5" y="197" width="87" height="33"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                    <state key="normal" title="CurlDown">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="curlDown:" destination="-1" eventType="touchUpInside" id="lPk-51-0dg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjC-VF-0SQ">
+                    <rect key="frame" x="147" y="240" width="120" height="33"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                    <state key="normal" title="FlipFromTop">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="flipFromTop:" destination="-1" eventType="touchUpInside" id="1fS-j6-CUa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icl-Bd-lny">
+                    <rect key="frame" x="131" y="283" width="152" height="33"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                    <state key="normal" title="FlipFromBottom">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="flipFromBottom:" destination="-1" eventType="touchUpInside" id="gXz-q7-HIR"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1x-bo-hxM">
+                    <rect key="frame" x="87" y="436" width="240" height="128"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="2tC-bp-GBA"/>
+                        <constraint firstAttribute="width" constant="240" id="OWb-DH-c4S"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="icl-Bd-lny" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5AY-we-Ymg"/>
+                <constraint firstItem="dy8-9M-m5r" firstAttribute="top" secondItem="utK-TG-DbN" secondAttribute="bottom" constant="10" id="6ZA-i9-aTV"/>
+                <constraint firstItem="icl-Bd-lny" firstAttribute="top" secondItem="ZjC-VF-0SQ" secondAttribute="bottom" constant="10" id="7of-6J-BdB"/>
+                <constraint firstItem="utK-TG-DbN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ex6-JG-pn6"/>
+                <constraint firstItem="ypf-4V-TTj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="OTC-9P-Fqo"/>
+                <constraint firstItem="ZjC-VF-0SQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QV3-Qf-OOh"/>
+                <constraint firstItem="ZjC-VF-0SQ" firstAttribute="top" secondItem="Yza-zc-6Ti" secondAttribute="bottom" constant="10" id="bKc-d5-VQ1"/>
+                <constraint firstItem="Yza-zc-6Ti" firstAttribute="top" secondItem="dy8-9M-m5r" secondAttribute="bottom" constant="10" id="ci3-Wj-Zl1"/>
+                <constraint firstItem="Yza-zc-6Ti" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dYN-OU-D2F"/>
+                <constraint firstItem="c1x-bo-hxM" firstAttribute="top" secondItem="icl-Bd-lny" secondAttribute="bottom" constant="120" id="epL-SI-aDn"/>
+                <constraint firstItem="c1x-bo-hxM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="j3I-75-SPE"/>
+                <constraint firstItem="dy8-9M-m5r" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kma-9A-1eD"/>
+                <constraint firstItem="ypf-4V-TTj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mzF-dE-pY2"/>
+                <constraint firstItem="utK-TG-DbN" firstAttribute="top" secondItem="ypf-4V-TTj" secondAttribute="bottom" constant="10" id="yIq-PY-2g5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
